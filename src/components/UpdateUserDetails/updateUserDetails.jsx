@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
 
 import Form from "react-bootstrap/Form";
 import { ErrorText, Button } from "../CreateUserDetails/style";
-import { PreviousButton, Title, Hr, ArrowLeft, Div, Radio } from "./style";
+import { PreviousButton, Title, Hr, ArrowLeft, Radio } from "./style";
 
 export default function UpdateUserDetails({ userData }) {
   const { job_titles, user, setPage, error, onSubmit, handleChange } = userData;

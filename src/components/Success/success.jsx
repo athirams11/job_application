@@ -6,7 +6,7 @@ export default function Success() {
   return (
     <Container>
       <Child>
-        <img src={check} />
+        <img src={check} alt="Success" />
       </Child>
       <Parent>
         <Title>Application Submitted</Title>

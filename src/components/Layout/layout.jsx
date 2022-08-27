@@ -43,15 +43,10 @@ const Layout = () => {
             marginRight: "30px",
           }}
         >
-          <a href="#" class="fa fa-facebook" title="Facebook" style={icon}></a>
-          <a href="#" class="fa fa-twitter" title="Twitter" style={icon}></a>
-          <a href="#" class="fa fa-linkedin" title="Linkedin" style={icon}></a>
-          <a
-            href="#"
-            class="fa fa-instagram"
-            title="Instagram"
-            style={icon}
-          ></a>
+          <span class="fa fa-facebook" title="Facebook" style={icon}></span>
+          <span class="fa fa-twitter" title="Twitter" style={icon}></span>
+          <span class="fa fa-linkedin" title="Linkedin" style={icon}></span>
+          <span class="fa fa-instagram" title="Instagram" style={icon}></span>
         </span>
       </div>
     </Article>
